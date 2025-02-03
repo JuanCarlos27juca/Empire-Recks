@@ -1,0 +1,96 @@
+/*.Contenedor-logo-navbar div, .Contenedor-logo-navbar nav{
+    display:inline-block;
+    border: 1px solid green;
+}*/
+.Contenedor-logo-navbar{
+    /*border:1px solid green;*/
+}
+.Contenedor-logo-navbar li{
+    /*border:1px solid green;*/
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.Logo{
+    width: 80px;
+    min-width: 80px;
+    /*border: 1px solid black;*/
+}
+
+.Contenedor-carrete{
+    width: fit-content;
+    /*border: 1px solid green;*/
+}
+
+.Contenedor-carrete div{
+    /*border: 1px solid green;*/
+}
+
+img{
+    height: auto;
+    /*border:1px solid green;*/
+}
+.Redes-sociales a img{
+    margin: 0px;
+    padding: 0px;
+    width: 80px;
+}
+
+.Redes-sociales a{
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+    margin-top: 30%;
+    width: fit-content;
+}
+.Segundo-renglon h3, .Tercer-renglon p{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.Texto-inicio{
+    /*border: 1px solid black;*/
+}
+
+.Contenedor-videos{
+    position: relative;
+    display: inline-block;
+}
+
+.Texto-videos, .Texto-cover-art{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 30px;
+}
+
+.Titulo-video{
+    font-weight: bold;
+}
+
+.Miniatura-derecha, .Miniatura-izquierda{
+position: relative;
+margin-top:10px;
+}
+
+.Miniatura-derecha:first-child, .Miniatura-izquierda:first-child{
+    margin-top: 0px;
+}
+
+.Link-videos, .Link-cover-art, .Link-miniaturas{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:100%;
+    height: 100%;
+}
+
+.Link-miniaturas:hover{
+background-color: rgba(0,0,0,0.3);
+}
+
+.Contenedor-titulo-miniatura{
+}
+
+.Separador{
+    width: 5%;
+}
