@@ -5,18 +5,14 @@
 .Contenedor-logo-navbar{
     /*border:1px solid green;*/
 }
-.Contenedor-logo-navbar li{
-    /*border:1px solid green;*/
-    margin-left: 25px;
-    margin-right: 25px;
-}
+
 .Logo{
     width: 80px;
     min-width: 80px;
     /*border: 1px solid black;*/
 }
 
-.Contenedor-carrete{
+.Contenedor-carousel{
     width: fit-content;
     /*border: 1px solid green;*/
 }
@@ -93,4 +89,49 @@ background-color: rgba(0,0,0,0.3);
 
 .Separador{
     width: 5%;
+}
+
+@media (min-width: 992px) {
+    .Contenedor-logo-carousel { 
+        margin: 3rem;
+}
+    .Contenedor-carousel { 
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .Logo {
+        display: block;
+    }
+    
+    .Contenedor-logo-navbar li{
+        /*border:1px solid green;*/
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .Contenedor-logo-navbar{
+        /*border:1px solid green;*/
+        margin: 3rem;
+    }
+
+    .navbar{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .Logo {
+        display: none;
+    }
+
+    .Contenedor-logo-navbar li{
+        /*border:1px solid green;*/
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .nav-link{
+        text-align: center;
+    }
 }
